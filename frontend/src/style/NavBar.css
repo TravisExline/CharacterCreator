@@ -1,0 +1,26 @@
+.user-container {
+    background-color: rgb(233, 59, 59);
+    font-family: 'Yatra One', cursive ;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.creation-link {
+    outline-color: black;
+    outline-width: 3px;
+    padding-right: 10px;
+}
+
+.home-link {
+    outline-color: black;
+    outline-width: 3px;
+    padding-right: 10px;
+}
+
+.characters-link {
+    outline-color: black;
+    outline-width: 3px;
+    text-align: center;
+}

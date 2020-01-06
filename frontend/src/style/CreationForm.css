@@ -1,0 +1,99 @@
+.creation-header {
+    font-family: 'Yatra One', cursive ;
+    color:  rgba(151, 31, 31, 0.856);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.creation-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 35px;
+    font-size: 30px
+}
+
+.name-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2
+}
+
+.class-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2
+}
+
+.race-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2
+}
+
+.age-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3
+}
+
+.str-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3
+}
+
+.dex-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3
+}
+
+.const-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4
+}
+
+.int-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4
+}
+
+.wis-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4
+}
+
+.char-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5
+}
+
+.lvl-input {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5
+}
+
+.submit-character {
+    font-family: 'Yatra One', cursive ;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6
+}

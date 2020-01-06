@@ -1,0 +1,3 @@
+class UserCharactersController < ApplicationController 
+
+end
