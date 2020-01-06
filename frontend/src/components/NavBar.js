@@ -16,6 +16,10 @@ const NavBar = () =>
             to='/characters'
             exact>View Characters
         </NavLink>
+        <NavLink className="initiation-link"
+            to='/initiation'
+            exact>Initiation Tracker
+        </NavLink>
     </div>
 
 

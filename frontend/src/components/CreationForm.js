@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import {createCharacter } from '../actions/characterActions'
 import NavBar from './NavBar'
+import Dice from '../containers/DiceContainer'
 import '../style/CreationForm.css'
 
 class CreationForm extends React.Component {
@@ -53,6 +54,7 @@ class CreationForm extends React.Component {
                     <input className="lvl-input" type="text" name="details" placeholder="Enter Character Level" onChange={event => this.handleChange(event)} value={props.details}/>
                     <input className="submit-character" type="submit" value="Create Character" />
                 </form>
+                <Dice />
             </div>
         )
     }
