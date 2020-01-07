@@ -1,0 +1,35 @@
+.dice-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+
+.dice-btn {
+    font-family: 'Yatra One', cursive ;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.dice-container-2 {
+    text-align: center;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    background-image: url('https://i.pinimg.com/236x/34/9c/86/349c86a573af40db64fe4a74664b9805.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 290px;
+    background-position-y: -40px;
+}
+
+.dice-number {
+    padding-top: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 62px;
+    color:  rgba(151, 31, 31, 0.856);
+}

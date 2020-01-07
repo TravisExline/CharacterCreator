@@ -10,7 +10,7 @@ class CharactersController < ApplicationController
 
   # GET /characters/1
   def show
-    @character = Character.find_by(id: params[:user_id])
+    @character = Character.find_by(id: params[:id])
     render json: @character
   end
 

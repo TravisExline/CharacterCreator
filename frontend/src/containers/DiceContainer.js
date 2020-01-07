@@ -1,5 +1,6 @@
 import React from 'react'
 import DiceRoll from '../components/DiceRoll'
+import '../style/Dice.css'
 
 class Dice extends React.Component {
     state = {
@@ -15,9 +16,9 @@ class Dice extends React.Component {
     
     render() {
         return (
-            <div>
-                <DiceRoll number={this.state.randomNum} />
-                <button onClick={this.rollDice}>Roll The Dice</button>
+            <div className="dice-container"> 
+                <button className="dice-btn" onClick={this.rollDice}>Roll The Dice</button>
+                <div className="dice-container-2"><DiceRoll number={this.state.randomNum} /></div>
             </div>
         )
     }

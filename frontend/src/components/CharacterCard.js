@@ -16,7 +16,7 @@ class CharacterCard extends React.Component {
                 <p className="character-wis">Wisdom: {this.props.character.wis}  </p>
                 <p className="character-char">Charisma: {this.props.character.char}  </p>
                 <p className="character-level">Level: {this.props.character.details}  </p>
-                <button onClick={() => this.props.handleDestroy(this.props.id)} type="button" className="character-delete">Delete {this.props.character.name}</button>
+                <button onClick={() => this.props.handleDestroy(this.props.character.id)} type="button" className="character-delete">Delete {this.props.character.name}</button>
             </div>
         )} else {
             return (

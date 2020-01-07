@@ -1,0 +1,29 @@
+.character-initiation {
+    font-family: 'Yatra One', cursive ;
+    font-size: 30px;
+}
+
+.initiation-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.submit-initiation {
+    font-family: 'Yatra One', cursive ;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.input-1 {
+    font-family: 'Cinzel Decorative', cursive;
+    display: grid;
+    grid-column: 1 / 2;
+}
+
+.initiation-header {
+    font-family: 'Yatra One', cursive ;
+    color: rgba(151, 31, 31, 0.856);
+}

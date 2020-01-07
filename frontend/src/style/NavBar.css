@@ -22,5 +22,13 @@
 .characters-link {
     outline-color: black;
     outline-width: 3px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.initiation-link {
+    outline-color: black;
+    outline-width: 3px;
+    padding-right: 10px;
     text-align: center;
 }

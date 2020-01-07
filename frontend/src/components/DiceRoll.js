@@ -1,10 +1,11 @@
 import React from 'react'
+import '../style/Dice.css'
 
 class DiceRoll extends React.Component {
     render() {
         return (
             <div>
-                <p>{this.props.number}</p>
+                <p className='dice-number'>{this.props.number}</p>
             </div>
         )
     }

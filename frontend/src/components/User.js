@@ -9,6 +9,7 @@ class User extends React.Component {
                 <h2 className="header">Welcome, {this.props.username}</h2>
                 <NavBar />
             </div>
+            
         )
     }
 }
