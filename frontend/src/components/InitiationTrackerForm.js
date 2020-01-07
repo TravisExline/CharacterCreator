@@ -7,9 +7,6 @@ class InitiationTrackerForm extends React.Component {
     handleSubmit =(event) => {
         event.preventDefault()
         this.props.addInitiation({...this.state})
-        this.setState({
-            characterName: "",
-        })
     }
 
     handleOnChange = (event) => {

@@ -2,7 +2,7 @@ export const ADD_CHARACTER = "ADD_CHARACTER"
 export const FETCH_CHARACTERS = "FETCH_CHARACTERS"
 export const SET_CHARACTERS = "SET_CHARACTERS"
 export const CREATE_CHARACTER = "CREATE_CHARACTER"
-export const DELETE_CHARACTER = "DELETER_CHARACTER"
+export const DELETE_CHARACTER = "DELETE_CHARACTER"
 
 export const addCharacter = character => {
     return {type: ADD_CHARACTER, character}
@@ -20,6 +20,10 @@ export const destroyCharacter = id => {
     return dispatch => 
         fetch(`http://localhost:3001/characters/${id}`, {
             method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            }
         })
         .then(() => {
             dispatch(deleteCharacter(id))

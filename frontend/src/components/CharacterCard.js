@@ -1,6 +1,16 @@
 import React from 'react'
 
 class CharacterCard extends React.Component {
+    state = {
+        number: 0
+    }
+
+    likeCharacter = () => {
+        this.setState({
+            number: this.state.number + 1
+        })
+    }
+    
     render() {
         if(this.props.character.user_id === this.props.userId) {
         return (
@@ -17,6 +27,8 @@ class CharacterCard extends React.Component {
                 <p className="character-char">Charisma: {this.props.character.char}  </p>
                 <p className="character-level">Level: {this.props.character.details}  </p>
                 <button onClick={() => this.props.handleDestroy(this.props.character.id)} type="button" className="character-delete">Delete {this.props.character.name}</button>
+                <button onClick={this.likeCharacter}>Like!</button>
+                <p>{this.state.number}</p>
             </div>
         )} else {
             return (

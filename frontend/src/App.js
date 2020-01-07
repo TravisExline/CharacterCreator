@@ -5,6 +5,7 @@ import {connect} from 'react-redux'
 import './App.css'
 
 class App extends React.Component {
+  
   render() {
     return (
       <div className="App">
@@ -12,7 +13,7 @@ class App extends React.Component {
         <UserContainer username={this.props.user.username}/>
         :
         <SignInForm />
-  }
+      }
       </div>
     );
   }

@@ -6,6 +6,7 @@ import '../style/Character.css'
 import NavBar from '../components/NavBar'
 
 class CharacterContainer extends React.Component {
+
     componentDidMount() {
         this.props.fetchCharacters()
     }
