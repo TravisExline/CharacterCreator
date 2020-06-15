@@ -1,4 +1,5 @@
 .container {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -24,12 +25,16 @@
 }
 
 .input-username {
+    font-size: 25px;
+    margin-top: 10px;
     display: grid;
     grid-column: 2 / 5;
     grid-row: 1 / 2;
 }
 
 .input-password {
+    font-size: 25px;
+    margin-top: 10px;
     display: grid;
     grid-column: 2 / 5;
     grid-row: 2 / 3;
@@ -37,11 +42,14 @@
 
 .checkbox-toggle {
     display: grid;
+    margin-top: 14px;
     grid-column: 5 / 6;
     grid-row: 2 / 3;
 }
 
 .toggle-text {
+    margin-top: 25px;
+    font-size: 18px;
     display: grid;
     grid-column: 5 / 6;
     grid-row: 2 / 3;
@@ -49,6 +57,8 @@
 }
 
 .submit-user {
+    margin-top: 10px;
+    font-size: 25px;
     display: grid;
     grid-column: 2 / 5;
     grid-row: 3 / 4;
