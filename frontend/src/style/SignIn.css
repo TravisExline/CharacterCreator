@@ -25,7 +25,8 @@
 }
 
 .input-username {
-    font-size: 25px;
+    font-family: 'Yatra One', cursive ;
+    font-size: 20px;
     margin-top: 10px;
     display: grid;
     grid-column: 2 / 5;
@@ -34,7 +35,8 @@
 }
 
 .input-password {
-    font-size: 25px;
+    font-family: 'Yatra One', cursive ;
+    font-size: 20px;
     margin-top: 10px;
     display: grid;
     grid-column: 2 / 5;
@@ -61,6 +63,7 @@
 .submit-user {
     margin-top: 10px;
     margin-bottom: 25px;
+    font-family: 'Yatra One', cursive ;
     font-size: 25px;
     display: grid;
     grid-column: 2 / 5;
