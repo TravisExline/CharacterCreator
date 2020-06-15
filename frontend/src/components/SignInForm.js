@@ -39,12 +39,14 @@ class SignInForm extends React.Component {
         return (
             <div className="container">
                 <h2 className="header">Begin Your Adventure Below</h2>
+                <div className="sign-in-background">
                 <form className="sign-in-form" onSubmit={this.handleSubmit}>
                     <input className="input-username" type="text" name="username" placeholder="Enter Your Username" onChange={this.handleChange} value={this.state.username}/>
                     <input className="input-password" type="password" name="password" placeholder="Enter Your Password" onChange={this.handleChange} value={this.state.password} id="pwInput"/>
                     <input className="checkbox-toggle" type="checkbox" onClick={this.handleVisibility}/><p className="toggle-text">Show Password</p>
                     <input className="submit-user" type="submit" value="Login" />
                 </form>
+                </div>
             </div>
 
         )
