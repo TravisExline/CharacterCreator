@@ -58,6 +58,7 @@
 
 .submit-user {
     margin-top: 10px;
+    margin-bottom: 25px;
     font-size: 25px;
     display: grid;
     grid-column: 2 / 5;
@@ -68,6 +69,12 @@
 
 .sign-in-background {
     display: grid;
+    margin-left: 110px;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+    height: 250px;
+    width: 450px;
+    opacity: .8;
+    background-color: rgb(230, 234, 238);
+    border-radius: 10px;
 }
