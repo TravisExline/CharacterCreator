@@ -9,11 +9,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 35px;
-    font-size: 30px
+    font-size: 30px;
+    padding-bottom: 15px;
 }
 
-.name-input, .class-input, .race-input, .age-input, .str-input, .dex-input, .const-input, .int-input, .wis-input, .char-input, .lvl-input {
+.submit-character, .name-input, .class-input, .race-input, .age-input, .str-input, .dex-input, .const-input, .int-input, .wis-input, .char-input, .lvl-input {
     font-family: 'Cinzel Decorative', cursive;
+    font-size: 19px;
     display: grid;
     height: 50px;
     width: 400px;
@@ -80,5 +82,5 @@
     background-color: black;
     display: grid;
     grid-column: 3 / 4;
-    grid-row: 5 / 6
+    grid-row: 5 / 6;
 }
