@@ -29,11 +29,11 @@
     transition-timing-function: ease;
 }
 
-.dice-container-2:hover {
+/* .dice-container-2:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
-}
+} */
 
 .dice-number {
     padding-top: 10px;

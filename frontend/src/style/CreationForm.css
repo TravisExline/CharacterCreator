@@ -12,79 +12,64 @@
     font-size: 30px
 }
 
-.name-input {
+.name-input, .class-input, .race-input, .age-input, .str-input, .dex-input, .const-input, .int-input, .wis-input, .char-input, .lvl-input {
     font-family: 'Cinzel Decorative', cursive;
     display: grid;
+    height: 50px;
+    width: 400px;
+}
+
+.name-input {
     grid-column: 2 / 3;
     grid-row: 1 / 2
 }
 
 .class-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 3 / 4;
     grid-row: 1 / 2
 }
 
 .race-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 4 / 5;
     grid-row: 1 / 2
 }
 
 .age-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 2 / 3
 }
 
 .str-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 3 / 4;
     grid-row: 2 / 3
 }
 
 .dex-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 4 / 5;
     grid-row: 2 / 3
 }
 
 .const-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 3 / 4
 }
 
 .int-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 3 / 4;
     grid-row: 3 / 4
 }
 
 .wis-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 4 / 5;
     grid-row: 3 / 4
 }
 
 .char-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 4 / 5
 }
 
 .lvl-input {
-    font-family: 'Cinzel Decorative', cursive;
-    display: grid;
     grid-column: 3 / 4;
     grid-row: 4 / 5
 }
