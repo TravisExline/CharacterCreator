@@ -18,6 +18,7 @@
 .dice-container-2 {
     text-align: center;
     display: grid;
+    height: 300px;
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     background-image: url('https://i.pinimg.com/236x/34/9c/86/349c86a573af40db64fe4a74664b9805.jpg');
@@ -25,6 +26,13 @@
     background-position: center;
     background-size: 290px;
     background-position-y: -40px;
+    transition-timing-function: ease;
+}
+
+.dice-container-2:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
 }
 
 .dice-number {
