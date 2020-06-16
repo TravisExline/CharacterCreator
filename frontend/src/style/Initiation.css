@@ -19,6 +19,9 @@
 
 .input-1 {
     font-family: 'Cinzel Decorative', cursive;
+    font-size: 20px;
+    height: 50px;
+    width: 585px;
     display: grid;
     grid-column: 1 / 2;
 }
