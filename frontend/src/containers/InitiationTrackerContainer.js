@@ -10,10 +10,10 @@ class InitiationTrackerContainer extends React.Component {
         return (
             <div>
                 <InitiationTrackerForm />
-                <DiceContainer />
                 {this.props.initiationCharacters.map((character, idx) => (
                     <InitationTracker key={idx} newCharacter={character} />
                 ))}
+                <DiceContainer />
             </div>
         )
     }

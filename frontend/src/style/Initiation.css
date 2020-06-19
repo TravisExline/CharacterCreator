@@ -1,4 +1,5 @@
 .character-initiation {
+    margin-bottom: 15px;
     font-family: 'Yatra One', cursive ;
     font-size: 30px;
 }
@@ -9,6 +10,8 @@
 }
 
 .submit-initiation {
+    width: 585px;
+    margin-top: 10px;
     font-family: 'Yatra One', cursive ;
     color: white;
     background-color: black;
